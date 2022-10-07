@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin:40px 150px;
+
+}
+
+.intro__course{
+    padding: 8% 0;
+    background-image: url(https://marshallyin.com/wp-content/uploads/2020/03/background-image-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    font-size: 30px;
+    color: #4c5c6c !important;
+    font-family: 'Montserrat';
+    margin-top: 0;
+    margin-bottom: 10px;
+    border: 2px double #4c5c6c;
+    border-radius: 10px;
+    font-weight: 500 !important;
+    text-align: center;
+}
+/* .middle{
+    margin:40px 150px;
+} */
+.course__group::-webkit-scrollbar {
+    display:none;
+}
+
+.course__group {
+   
+    background: rgb(248, 248, 248);
+    height: 656px;
+    overflow:scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    border: 1px solid #4c5c6c;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.course__group a {
+    
+    text-decoration: none;
+    width: 100%;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow:  10px 5px 10px #4c5c6c;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    color: #4c5c6c;
+}
+
+.course{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.course__img{
+    border-radius: 50%;
+    
+}
+.course__name{
+    font-size: 40px;
+    margin: 0 50px;
+    
+}
+
+.heading{
+    text-align: center;
+    color: #4c5c6c;
+    font-size: 36px;
+    margin: 25px;
+}
