@@ -18,7 +18,7 @@ const tableth = document.querySelectorAll('th');
 toggle.addEventListener('click', function () {
     this.classList.toggle('bi-moon');
     if (this.classList.toggle('bi-brightness-high-fill')) {
-        body.classList.toggle('light');
+        // body.classList.toggle('light');
         body.style.background = 'white';
         body.style.color = 'black';
         body.style.transition = '2s';
@@ -29,7 +29,7 @@ toggle.addEventListener('click', function () {
         // tableth.style.border - bottom = '1px solid white';
 
     } else {
-        body.classList.toggle('dark');
+        // body.classList.toggle('dark');
 
         body.style.background = 'black';
         body.style.color = 'white';
