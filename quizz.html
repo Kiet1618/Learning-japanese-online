@@ -8,43 +8,78 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="quiz-container" id="quiz">
-        <div class="quiz-header">
-          <h2 id="question">Question text</h2>
-          <ul>
-            <li>
-                <div class="option">
-                    <input type="radio" name="answer"  id="a" class="answer">
-                    <label for="a" id="a_text">Question</label>
+    <section class="header">
+        <nav>
+            <a href=""><img src="https://mochidemy.com/kana/images/logo-1.webp" alt="logo"></a>
+            <div class="navBar">
+                <!-- <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">portfolio</a></li>
+                <li><a href="">blogs</a></li>
+                <li><a href="">contact</a></li>
+            </ul> -->
+                <a href="course.html">course</a>
+                <a href="quizz_main.html">quiz</a>
+                <a href="anime.html">anime</a>
+                <a href="">jlpt</a>
+                <a href="">blogs</a>
+                <!-- <a href="">register</a>
+                <a href="">login</a> -->
+            </div>
+            <div class="right">
+                <button>Đăng ký</button>
+                <button>Đăng nhập</button>
+            </div>
+        </nav>
+    </section>
+   
+    <div id="content">
+        <div class="middle">
+            <div class="intro__course">
+                <h1 class="intro__tiltle">Quiz</h1>
+            </div>
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                  <h2 id="question">Question text</h2>
+                  <ul>
+                    <li>
+                        <div class="option">
+                            <input type="radio" name="answer"  id="a" class="answer">
+                            <label for="a" id="a_text">Question</label>
+        
+                        </div>
+                    </li>
+          
+                    <li>
+                        <div class="option">
+                            <input type="radio" name="answer" id="b" class="answer">
+                            <label for="b" id="b_text">Question</label>
+                        </div>
+                     
+                    </li>
+          
+                    <li>
+                        <div class="option">
+                            <input type="radio" name="answer" id="c" class="answer">
+                            <label for="c" id="c_text">Question</label>
+                        </div>
+                    </li>
+          
+                    <li>
+                        <div class="option">
+                            <input type="radio" name="answer" id="d" class="answer">
+                            <label for="d" id="d_text">Question</label>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+                <button id="submit">Submit</button>
+                <script src="./quizz.js"></script>
+            </div>
 
-                </div>
-            </li>
-  
-            <li>
-                <div class="option">
-                    <input type="radio" name="answer" id="b" class="answer">
-                    <label for="b" id="b_text">Question</label>
-                </div>
-             
-            </li>
-  
-            <li>
-                <div class="option">
-                    <input type="radio" name="answer" id="c" class="answer">
-                    <label for="c" id="c_text">Question</label>
-                </div>
-            </li>
-  
-            <li>
-                <div class="option">
-                    <input type="radio" name="answer" id="d" class="answer">
-                    <label for="d" id="d_text">Question</label>
-                </div>
-            </li>
-          </ul>
         </div>
-        <button id="submit">Submit</button>
-        <script src="./quizz.js"></script>
+        
     </div>
 
    

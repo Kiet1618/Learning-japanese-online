@@ -184,7 +184,8 @@ nav .navBar a {
     gap: 16px;
     flex: 1;
     text-align: right;
-    color: #fcdac0;
+  color: #ce9569;
+    
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
