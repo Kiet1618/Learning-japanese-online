@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* margin: 40px 150px; */
+
+}
+
+.intro__course {
+    padding: 8% 0;
+    background-image: url(https://marshallyin.com/wp-content/uploads/2020/03/background-image-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    font-size: 30px;
+    color: #4c5c6c !important;
+    font-family: 'Montserrat';
+    margin-top: 0;
+    margin-bottom: 10px;
+    border: 2px double #4c5c6c;
+    border-radius: 10px;
+    font-weight: 500 !important;
+    text-align: center;
+    margin: 0 150px;
+}
+
+/* .middle{
+    margin:40px 150px;
+} */
+.title {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz__group::-webkit-scrollbar {
+    display: none;
+}
+
+.quiz__group {
+
+    background: rgb(248, 248, 248);
+    height: 656px;
+    overflow: auto;
+    border: 1px solid #4c5c6c;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 150px;
+
+}
+
+.quiz__search {
+    display: flex;
+    align-items: center;
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+table,
+td,
+th {
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 70px;
+}
+
+/* .circle {
+    border-radius: 50%;
+    color: black;
+    /* border: 2px double #4c5c6c; */
+/* padding: 0; */
+/* background-color: transparent; */
+/* }  */
+
+/* .circle a {
+    padding: 10px;
+    border: 2px;
+}
+
+.circle:hover {
+    background: black;
+    color: white;
+} */
+.circle a {
+    text-decoration: none;
+}
+
+.darkmode {
+    font-size: 25px;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    text-align: center;
+    background: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.darkmode:hover {
+    background: black;
+    transition: 1s;
+}
+
+/* .dark {
+    color: white;
+    background-color: black;
+}
+
+.light {
+    color: black;
+    background-color: white;
+} */
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    background-color: #f6f6f6;
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.06);
+}
+
+nav .right {
+    width: 220px;
+    height: 46px;
+    display: flex;
+}
+
+nav .right button {
+    background-color: #5090bd;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100px;
+    margin: 5px 0;
+    padding: 1px 6px;
+    margin-left: 10px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+    line-height: 34px;
+    border: none;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+    display: inline;
+}
+
+nav .navBar a {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    gap: 16px;
+    flex: 1;
+    text-align: right;
+    color: #fcdac0;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Quicksand;
+}
+
+nav .navBar a:hover {
+    background-color: #292524;
+    border-radius: 4px;
+}
