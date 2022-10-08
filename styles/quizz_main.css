@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     /* margin: 40px 150px; */
+    /* overflow: hidden; */
 
 }
 
@@ -33,6 +34,24 @@ body {
 } */
 .title {
     margin: 0 150px;
+    display: flex;
+    align-items: center;
+    margin:30px;
+    justify-content: space-around;
+}
+.quiz__search{
+    display: flex;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: 10px;
+    
+
+}
+.quiz__search input {
+    /* border-radius: 10px; */
+    outline: none;
+    padding:5px;
+    border:1px solid #4c5c6c;
 }
 
 .quiz__group {
@@ -49,6 +68,10 @@ body {
     margin: 0 150px;
 
 }
+.quiz__group::-webkit-scrollbar{
+    display: none;
+}
+
 
 .content {
 
@@ -68,10 +91,28 @@ th {
     padding: 20px 0;
 
 }
+/* table::-webkit-scrollbar{
+    display: none;
+} */
+table{
+   width: 100%;
+   overflow: scroll;
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+}
+/* .table_container::-webkit-scrollbar{
+    display: none;
+}
+.table_container{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow: hidden;
+} */
 
 table {
     border-collapse: collapse;
     width: 100%;
+    
 }
 
 th {
@@ -171,7 +212,9 @@ nav .navBar a {
     gap: 16px;
     flex: 1;
     text-align: right;
-    color: #fcdac0;
+    /* color: #fcdac0; */
+  color: #ce9569;
+
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
