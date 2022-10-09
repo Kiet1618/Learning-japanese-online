@@ -20,7 +20,7 @@
 <body>
     <section class="header">
         <nav>
-          <a href="index.html"
+          <a href="index.php"
             ><img
               src="https://img.icons8.com/fluent/2x/homer-simpson.png"
               alt="logo"
@@ -74,168 +74,168 @@
                         <td>Basic </td>
                         <td>Gojuon Quiz</td>
                         <td class="circle">
-                            <a href="quizz.html">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Basic </td>
                         <td>Verb Conjugation Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>Basic </td>
                         <td>Particle Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N5 </td>
                         <td>N5 Kanji Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N5 </td>
                         <td>N5 Grammar Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N5 </td>
                         <td>N5 Vocabulary Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N5</td>
                         <td>N5 Vocabulary Input Quizz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N5</td>
                         <td>N5 Listening Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N4</td>
                         <td>N4 Kanji Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N4</td>
                         <td>N4 Grammar Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N4 </td>
                         <td>N4 Vocabulary Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N4 </td>
                         <td>N4 Listening Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N3 </td>
                         <td>N3 Kanji Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N3</td>
                         <td>N3 Grammar Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N3</td>
                         <td>N3 Vocabulary Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N3</td>
                         <td>N3 Listening Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N2</td>
                         <td>N2 Kanji Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N2 </td>
                         <td>N2 Grammar Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N2</td>
                         <td>N2 Vocabulary Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N2</td>
                         <td>N2 Listening Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N1 </td>
                         <td>N1 Kanji Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N1</td>
                         <td>N1 Grammar Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N1</td>
                         <td>N1 Vocabulary Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
                     <tr>
                         <td>N1 </td>
                         <td>N1 Listening Quiz</td>
                         <td class="circle">
-                            <a href="">Start</a>
+                            <a href="quizz.php">Start</a>
                         </td>
                     </tr>
 

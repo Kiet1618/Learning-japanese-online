@@ -15,7 +15,7 @@ include 'header.php'
   
     <section class="header">
       <nav>
-        <a href="index.html"
+        <a href="index.php"
           ><img
             src="https://img.icons8.com/fluent/2x/homer-simpson.png"
             alt="logo"
