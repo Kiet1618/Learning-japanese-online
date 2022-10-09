@@ -112,7 +112,8 @@ nav .navBar a:hover {
 
 
 .image img {
-  width: 100%;
+  /* width: 100%; */
+  width: 339px;
   /* overflow: hidden; */
   object-fit: cover;
   height: 100%;
