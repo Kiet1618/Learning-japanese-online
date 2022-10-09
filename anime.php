@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+    <?php session_start() ?>
+<?php 
+include 'header.php' 
+?>
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,29 +19,32 @@
 <body>
     <section class="header">
         <nav>
-            <a href=""><img src="https://img.icons8.com/fluent/2x/homer-simpson.png" alt="logo"></a>
-            <div class="navBar">
-                <!-- <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">portfolio</a></li>
-                <li><a href="">blogs</a></li>
-                <li><a href="">contact</a></li>
-            </ul> -->
-                <a href="course.html">course</a>
-                <a href="quizz.html">quiz</a>
-                <a href="#">anime</a>
-                <a href="">jlpt</a>
-                <a href="">blogs</a>
-                <!-- <a href="">register</a>
-                <a href="">login</a> -->
-            </div>
-            <div class="right">
-                <button>Đăng ký</button>
-                <button>Đăng nhập</button>
-            </div>
+          <a href="index.html"
+            ><img
+              src="https://img.icons8.com/fluent/2x/homer-simpson.png"
+              alt="logo"
+          /></a>
+          <div class="navBar">
+           
+  
+            <a href="course.php">course</a>
+            <a href="quizz_main.php">quiz</a>
+            <a href="anime.php">anime</a>
+            <a href="">contest</a>
+            <a href="">forum</a>
+           
+          </div>
+          <div class="right">
+          <?php if(isset($_SESSION['login_id'])): ?>
+                  <div class ="right">
+              <button><?php echo ucwords($_SESSION['login_firstname']) ?></button>   
+              <button onclick="location.href='ajax.php?action=logout'">Đăng xuất</button></div>
+              <?php else: ?>
+                  <div class ="right"><button onclick="location.href='http:login.php'">Đăng nhập</button></div>
+              <?php endif; ?>
+          </div>
         </nav>
-    </section>
+      </section>
     <div id="content">
         <div class="middle">
             <div class="intro__course">

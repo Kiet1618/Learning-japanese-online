@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php session_start() ?>
+<?php 
+include 'header.php' 
+?>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,16 +23,21 @@
         <div class="navBar">
          
 
-          <a href="course.html">course</a>
-          <a href="quizz_main.html">quiz</a>
-          <a href="anime.html">anime</a>
+          <a href="course.php">course</a>
+          <a href="quizz_main.php">quiz</a>
+          <a href="anime.php">anime</a>
           <a href="">contest</a>
           <a href="">forum</a>
          
         </div>
         <div class="right">
-          <button>Đăng ký</button>
-          <button>Đăng nhập</button>
+        <?php if(isset($_SESSION['login_id'])): ?>
+                <div class ="right">
+            <button><?php echo ucwords($_SESSION['login_firstname']) ?></button>   
+            <button onclick="location.href='ajax.php?action=logout'">Đăng xuất</button></div>
+            <?php else: ?>
+                <div class ="right"><button onclick="location.href='http:login.php'">Đăng nhập</button></div>
+            <?php endif; ?>
         </div>
       </nav>
     </section>
