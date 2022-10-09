@@ -13,7 +13,7 @@ body {
 
 .intro__course {
     padding: 8% 0;
-    background-image: url(https://marshallyin.com/wp-content/uploads/2020/03/background-image-5.png);
+    background-image: url(/img/intro__course__img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left bottom;
